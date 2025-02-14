@@ -3,7 +3,7 @@ import React from 'react';
 const Projects = () => {
   return (
     <div className="projects">
-      <h2>My Projects</h2>
+      <h2>💻 My Projects</h2>
 
       <div className="project">
         <h3>
@@ -12,7 +12,7 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            🍽️ Recipe App - A Simple Recipe App for Android
+            🍽️ Recipe App - A Simple Recipe App for Android (Click Me!)
           </a>
         </h3>
         <h4 className="overview">Overview</h4>
@@ -30,7 +30,7 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <br /> 🎮 VortexTerra - Fanmade Terraria Wiki
+            <br /> 🎮 VortexTerra - Fanmade Terraria Wiki (Click Me!)
           </a>
         </h3>
         <h4 className="overview">Overview</h4>
@@ -48,7 +48,7 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <br /> 🌡️ ThermoApp - Android Temperature App
+            <br /> 🌡️ ThermoApp - Android Temperature App (Click Me!)
           </a>
         </h3>
         <h4 className="overview">Overview</h4>
@@ -66,7 +66,7 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <br /> 🖼️ HuSnap - Image Database for Archiving Art
+            <br /> 🖼️ HuSnap - Image Database for Archiving Art (Click Me!)
           </a>
         </h3>
         <h4 className="overview">Overview</h4>
@@ -84,7 +84,7 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <br /> 🎬 MiNotes - Video Summarizer Using AI
+            <br /> 🎬 MiNotes - Video Summarizer Using AI (Click Me!)
           </a>
         </h3>
         <h4 className="overview">Overview</h4>
