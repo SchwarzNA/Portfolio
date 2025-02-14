@@ -5,6 +5,37 @@
     box-sizing: border-box;
   }
   
+/* Style for project title links */
+.projects .project a {
+    text-decoration: none; /* Removes underline */
+    transition: color 0.3s;
+  }
+  
+/* Ensure the description text in the project bullets is justified */
+.projects .project .description {
+    list-style-type: disc;
+    padding-left: 20px; /* Indent bullet points */
+    margin-top: 5px;
+  }
+  
+  .projects .project .description li {
+    text-align: justify;
+  }
+  
+  /* Add extra spacing between the title and the overview */
+  .projects .project h4.overview {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+
+  /* Dark mode: force title links to be white */
+  body.dark .projects .project a,
+  body.dark .projects .project a:visited,
+  body.dark .projects .project a:active {
+    color: #ffffff;
+  }  
+
   body, html {
     height: 100%;
     font-family: 'Poppins', 'Roboto', 'Arial', sans-serif;
