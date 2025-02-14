@@ -1,11 +1,11 @@
 # Personal Portfolio React App 🚀
 
-Welcome to my **Personal Portfolio** project! This website was created for my **Midterm Task Performance** in building a React-based portfolio, featuring routing, a modern design, and a dark/light mode toggle. 
+Welcome to my **Personal Portfolio** project! This website was created for my **Midterm Task Performance** in building a React-based portfolio, featuring routing, a modern design, and a dark/light mode toggle.
 
 ## ✨ Overview
 
 - **Objective**: Create a portfolio website to showcase my projects, about information, and contact details.
-- **Tech Stack**: 
+- **Tech Stack**:
   - React (with create-react-app)
   - React Router for navigation
   - CSS (or styled-components, etc.) for styling
@@ -61,6 +61,12 @@ cd Portfolio
 npm install
 ```
 
+#### Install React Router
+
+```bash
+npm install react-router-dom
+```
+
 #### Install `web-vitals` (if you don’t already have it)
 
 ```bash
@@ -74,7 +80,6 @@ npm install web-vitals
 ```bash
 npm start
 ```
-
 This command runs the app in development mode.  
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
@@ -84,6 +89,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 - **Projects Page**: Showcasing my work.  
 - **About Page**: Short bio.  
 - **Contact Page**: Ways to reach me.  
-- **Dark/Light Toggle**: Switch between themes in the navbar.  
-
----
+- **Dark/Light Toggle**: Switch between themes in the navbar.
